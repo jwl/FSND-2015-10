@@ -21,3 +21,7 @@ Implementation of Project 1: Movie Trailer Website for Udacity's Full Stack Web 
 * Launch from project root directory:
 	* Python3: `python3 movies/entertainment_center.py`
 	* Python2: `python movies/entertianment_center.py`
+
+### References
+* Metainformation on each movie taken from [imdb](http://www.imdb.com/?ref_=nv_home).
+	* (Cheesy plot summaries are unfortunately my own creation)
