@@ -6,3 +6,18 @@ Implementation of Project 1: Movie Trailer Website for Udacity's Full Stack Web 
 `fresh_tomatoes.py` taken from the [course materials](https://www.udacity.com/wiki/nd004)
 
 
+### File structure:
+```
+.
+├── movies
+│   ├── entertainment_center.py
+│   ├── fresh_tomatoes.py
+│   └── media.py
+└── README.md
+```
+
+### HOWTO Install and Run:
+* Extract package to desired directory
+* Launch from project root directory:
+	* Python3: `python3 movies/entertainment_center.py`
+	* Python2: `python movies/entertianment_center.py`
