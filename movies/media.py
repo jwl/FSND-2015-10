@@ -21,8 +21,8 @@ class Movie(object):
         trailer_youtube_url (str): URL for theatrical trailer for movie.
         release_date (date): Original theatrical release date for movie.
         mpaa_rating (int): MPAA rating
-                running_time (int): Original theatrical running time in minutes
-                metascore (int): Metacritic score as defined on Metacritic.com
+        running_time (int): Original theatrical running time in minutes
+        metascore (int): Metacritic score as defined on Metacritic.com
 
     """
 
