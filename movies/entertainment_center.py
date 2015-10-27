@@ -4,15 +4,6 @@ from datetime import date
 import fresh_tomatoes
 import media
 
-# Creating individual instances of Movie objects
-# Movie object fields:
-# * Title (string)
-# * Storyline summary (string)
-# * URL for poster image (string)
-# * Theatrical release date (date)
-# * MPAA rating (string)
-# * Running time in minutes (int)
-# * Metacritic score (int)
 
 # Reference: http://www.imdb.com/title/tt0114709/
 toy_story = media.Movie(
@@ -40,9 +31,9 @@ avatar = media.Movie(
 frozen = media.Movie(
     "Frozen",
     "A young woman gets the cold shoulder from her sister.",
-    "https://upload.wikimedia.org/wikipedia/en/0/05/"
-    ("Frozen_%282013_film%29_poster.jpg",
-        "https://www.youtube.com/watch?v=TbQm5doF_Uc"),
+    ("https://upload.wikimedia.org/wikipedia/en/0/05/"
+        "Frozen_%282013_film%29_poster.jpg"),
+    "https://www.youtube.com/watch?v=TbQm5doF_Uc",
     date(2013, 11, 27),
     "PG",
     102,
@@ -77,7 +68,7 @@ pacific_rim = media.Movie(
 gravity = media.Movie(
     "Gravity",
     ("After a few fender benders, a doctor confronts her grief over "
-        "daughter's death as she hitches several rides around the world."),
+        "her daughter's death as she hitches several rides around the world."),
     "https://upload.wikimedia.org/wikipedia/en/f/f6/Gravity_Poster.jpg",
     "https://www.youtube.com/watch?v=OiTiKOy59o4",
     date(2013, 10, 4),
