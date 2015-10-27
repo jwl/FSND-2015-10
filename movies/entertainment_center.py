@@ -4,6 +4,12 @@ from datetime import date
 import fresh_tomatoes
 import media
 
+"""Create a gallery of movie trailers.
+
+Creates and populates a list of pre-set movies and passes this list to 
+fresh_tomatoes.py to dynamically generate a webpage gallery and opens
+the web browser to this gallery.
+"""
 
 # Reference: http://www.imdb.com/title/tt0114709/
 toy_story = media.Movie(
