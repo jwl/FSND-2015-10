@@ -6,13 +6,13 @@ import media
 
 # Creating individual instances of Movie objects
 # Movie object fields:
-# * Title
-# * Storyline summary
-# * URL for poster image
-# * Theatrical release date
-# * MPAA rating
-# * Running time in minutes
-# * Metacritic score
+# * Title (string)
+# * Storyline summary (string)
+# * URL for poster image (string)
+# * Theatrical release date (date)
+# * MPAA rating (string)
+# * Running time in minutes (int)
+# * Metacritic score (int)
 
 # Reference: http://www.imdb.com/title/tt0114709/
 toy_story = media.Movie(
